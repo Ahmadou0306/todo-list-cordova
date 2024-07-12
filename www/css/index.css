@@ -1,0 +1,29 @@
+.done{
+    text-decoration: line-through;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; 
+}
+.ajouterTitle{
+    padding: 1%;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 25px ;
+    width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+input{
+    color: white;
+}
+.app-title{
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+#taskList li{
+    margin-top: 5px;
+}

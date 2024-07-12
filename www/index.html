@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/themes/task-app.min.css">
+    <link rel="stylesheet" href="lib/themes/jquery.mobile.icons.min.css">
+    <link rel="stylesheet" href="lib/jquery.mobile.structure-1.4.5.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1 class="app-title">Todo List</h1>
+        </div>    
+        <div role="main" class="ui-content">
+            <form>
+                <label data-role="header" class="ajouterTitle">
+                    Ajouter une tache
+                </label>
+                <input type="text" id="task" placeholder="Nouvelle tache">
+                <button onclick="ajouterTache()">Ajouter</button>
+            </form>
+            <div data-role="header">
+                Tâches en Cours
+            </div>
+            <ul id="taskList" data-role="listView" data-inset="true"></ul>
+            <div data-role="header">
+                Tâches Terminées
+            </div>
+            <ul id="finishTask" data-role="listView" data-inset="true"></ul>
+
+            <button onclick="reinitialiser()">Reinitialiser</button>
+        </div>
+        <div data-role="footer" data-position="fixed">
+            <h1>Ahmadou NDIAYE &copy; 2024</h1>
+        </div>
+    </div>
+</body>
+</html>

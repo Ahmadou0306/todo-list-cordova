@@ -1,0 +1,92 @@
+/* Override the default loading icon URL */
+.ui-icon-loading {
+    background-image: url('../lib/images/ajax-loader.gif') !important;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333; /* Dark gray header text */
+    text-align: center;
+    margin: 0;
+    padding: 15px 0;
+}
+
+div[data-role="header"], div[data-role="footer"] {
+    background-color: #444; /* Dark gray background for header and footer */
+    color: #fff; /* White text for header and footer */
+    text-align: center;
+    padding: 10px 0;
+}
+
+div[data-role="main"] {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #555; /* Medium gray for labels */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 2%;
+    background-color: #007bff; /* Blue background for buttons */
+    color: #fff; /* White text for buttons */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:last-of-type {
+    margin-right: 0;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* White background for list items */
+    color: #333; /* Dark gray text for list items */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #444;
+    text-align: center;
+}
